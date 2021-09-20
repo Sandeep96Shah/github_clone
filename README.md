@@ -2,7 +2,7 @@
 * This is a Github Issue page clone where a user can see a list of issues with brief details.
 
 ## Deploy
-* [Click Here](https://frosty-hamilton-908417.netlify.app/)
+* [Click Here](https://relaxed-hawking-29a83a.netlify.app/)
 
 ## Tech Stack
 * ReactJs - FrontEnt
