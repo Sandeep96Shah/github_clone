@@ -6,6 +6,7 @@ export const issues = [
         name:"Sandeep",
         number:1234,
         timeStamp:5,
+        message:true,
     },
     {
         id:2,
@@ -30,6 +31,7 @@ export const issues = [
         name:"ChristopherShyper",
         number:7632,
         timeStamp:15,
+        message:true
     },
     {
         id:5,
@@ -46,6 +48,7 @@ export const issues = [
         name:"j-d-carmichael",
         number:8752,
         timeStamp:25,
+        message:true,
     },
     {
         id:7,
@@ -54,6 +57,7 @@ export const issues = [
         name:"v4hn",
         number:4725,
         timeStamp:35,
+        message:true,
     },
     {
         id:8,
@@ -78,6 +82,7 @@ export const issues = [
         name:"j-d-carmichael",
         number:8752,
         timeStamp:25,
+        message:true,
     },
     {
         id:11,
@@ -110,6 +115,7 @@ export const issues = [
         name:"ezeeyahoo",
         number:9754,
         timeStamp:15,
+        message:true,
     },
     {
         id:15,

@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import Header from './Header';
 import Issue from './Issue';
 import IssueHeader from './IssueHeader';
@@ -24,10 +23,5 @@ console.log("issue", issues);
   );
 }
 
-function mapStateToProps(state){
-  return{
-    issues:state.issues,
-  }
-}
 
-export default connect(mapStateToProps)(App);
+export default App;

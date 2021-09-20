@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaExclamationCircle } from 'react-icons/fa';
+import { FaExclamationCircle, FaCommentAlt } from 'react-icons/fa';
 
  const Issue = (props) => {
      console.log("issueeee", props);
@@ -18,6 +18,7 @@ import { FaExclamationCircle } from 'react-icons/fa';
                 </div>
                 <div className="detail"><p># {props.issue.number} opened {props.issue.timestamps} hours ago by {props.issue.name}</p></div>              
             </div>
+            { props.issue.message && <div className="message"><FaCommentAlt  /><p>1</p></div>}
         </div>
     )
 }
