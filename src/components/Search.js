@@ -1,9 +1,5 @@
 import React from 'react';
-import { FaSearch,
-    FaUserTag,
-    FaGem,
-        
-} from 'react-icons/fa';
+import { FaUserTag, FaGem } from 'react-icons/fa';
 
 const Search = () => {
     return (

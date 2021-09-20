@@ -11,7 +11,7 @@ import { FaExclamationCircle } from 'react-icons/fa';
                 
                     <div className="body"><p>{props.issue.body}</p></div>
                     {
-                        props.issue.title == "feature" ? 
+                        props.issue.title === "feature" ? 
                         <div className="feature"><p>{props.issue.title}</p></div>:
                         <div className="bug"><p>{props.issue.title}</p></div>
                     }

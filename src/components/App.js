@@ -1,10 +1,9 @@
-import React,{ useEffect } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import Header from './Header';
 import Issue from './Issue';
 import IssueHeader from './IssueHeader';
 import Search from './Search';
-import { getIssuesHelper } from '../actions';
 import {issues} from '../data';
 
 const App = (props) => {
